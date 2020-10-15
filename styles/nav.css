@@ -1,0 +1,37 @@
+.nav {
+    background-color: #09154B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 1.3em;
+    position: fixed;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+}
+
+.menu {
+    width: 100vh;
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item {
+    padding: 20px 40px;
+    transition: color 1s, background-color 1s;
+}
+
+.menu__item:hover {
+    background-color: whitesmoke;
+    color: #09154B;
+}
+
+.icon {
+    padding: 20px;
+}

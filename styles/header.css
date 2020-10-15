@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 6em;
+    font-family: 'Caveat', cursive;
+    max-width: 1100px;
+    text-align: center;
+    color: #09154B;
+}
+
+.title--highlighted {
+    color: #FF7B29 ;
+}

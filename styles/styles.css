@@ -1,0 +1,13 @@
+/*granat: #09154B   pomarańćz #FF7B29 */
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: rgb(97, 97, 95);
+}
