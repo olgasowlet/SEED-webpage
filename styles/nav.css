@@ -29,16 +29,19 @@ a {
 
 .menu__item {
     padding: 20px 40px;
-    transition: color 1s, background-color 1s;
+    border-radius: 40px;
+    margin: 0 10px;
+    transition: color 1s, background-color 1s, border-radious 1s;
 }
 
 .menu__item:hover {
+    border-radius: 40px;
     background-color: whitesmoke;
     color: #09154B;
 }
 
 .icon {
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: white;
