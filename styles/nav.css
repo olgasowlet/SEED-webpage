@@ -6,7 +6,8 @@
     align-items: center;
     color: whitesmoke;
     font-size: 1.3em;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     font-family: 'Lato', sans-serif;
     padding: 0 20px;

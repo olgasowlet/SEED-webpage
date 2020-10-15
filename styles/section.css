@@ -1,0 +1,13 @@
+.section {
+    /* position: relative;
+    z-index: -1; */
+    /* top: 100px; */
+    padding: 200px;
+    margin: 50px auto;
+    max-width: 1500px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7em;
+    font-stretch: semi-expanded;
+    text-align: center;
+    font-size: 1.2em;
+}
