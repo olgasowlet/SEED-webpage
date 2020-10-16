@@ -1,0 +1,33 @@
+.article__title {
+    color: #FF7B29;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    font-size: 2em;
+    /* text-align: left; */
+    /* margin-bottom: 50px; */
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.paragraph:first-of-type {
+    border-bottom: 2px solid rgba(9, 21, 75, 0.493) ;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.article__span1{
+    margin: 0 auto;
+}
+
+.article__span {
+    flex-grow: 1;
+}
+
+.article__img {
+    height: 200px;
+}
