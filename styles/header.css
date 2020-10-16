@@ -9,12 +9,12 @@
 .title {
     font-size: 3em;
     font-family: 'Caveat', cursive;
-    /* max-width: 400px; */
+    max-width: 400px;
     text-align: center;
     color: #09154B;
-    border: 0px solid #FF7B29;
+    /* border: 0px solid #FF7B29; */
     border-radius: 20px;
-    box-shadow: 0 3px 10px #09154B ;
+    /* box-shadow: 0 0px 10px #FF7B29 ; */
     padding: 10px 30px;
 }
 
