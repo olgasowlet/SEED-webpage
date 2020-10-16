@@ -45,9 +45,4 @@ a {
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: white;
-}
-
-.logo__image {
-    height: 30px;
 }

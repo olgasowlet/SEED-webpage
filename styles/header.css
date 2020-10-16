@@ -1,16 +1,21 @@
 .header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
 }
 
 .title {
     font-size: 3em;
     font-family: 'Caveat', cursive;
-    max-width: 1000px;
+    /* max-width: 400px; */
     text-align: center;
     color: #09154B;
+    border: 0px solid #FF7B29;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px #09154B ;
+    padding: 10px 30px;
 }
 
 .title--highlighted {
