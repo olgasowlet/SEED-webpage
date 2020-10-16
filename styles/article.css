@@ -3,6 +3,7 @@
     /* text-transform: uppercase; */
     font-weight: bold;
     font-size: 2em;
+    margin: 0 auto;
     /* text-align: left; */
     /* margin-bottom: 50px; */
 }
@@ -11,7 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
+    margin: 100px auto;
+    max-width: 1000px;
 }
 
 .paragraph:first-of-type {
@@ -26,6 +28,7 @@
 
 .article__span {
     flex-grow: 1;
+    max-width: 900px;
 }
 
 .article__img {
