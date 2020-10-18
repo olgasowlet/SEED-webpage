@@ -1,0 +1,41 @@
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "project1 project1"
+    "project2 project2";
+}
+
+.project1, .project2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project1 {
+    grid-area: project1;
+    text-align: end;
+}
+
+.project2 {
+    grid-area: project2;
+    text-align: start;
+}
+
+.projectPhoto {
+    width: 600px;
+}
+
+.article__title--project {
+    margin: 100px 0;
+}
+
+.project__list {
+    text-align: start;
+}
+
+.project__title {
+    font-size: 1.3em;
+    color: #09154B ;
+}
