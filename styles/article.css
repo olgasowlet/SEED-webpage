@@ -8,6 +8,10 @@
     /* margin-bottom: 50px; */
 }
 
+.article__title--first{
+    padding-top: 100px;
+}
+
 .paragraph {
     display: flex;
     justify-content: space-between;
