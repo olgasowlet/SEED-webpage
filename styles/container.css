@@ -1,0 +1,72 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1.7fr;
+    max-width: 1200px;
+    margin: 0px auto;
+    column-gap: 20px;
+    grid-template-areas:
+    "zarzad zarzad zarzad"
+    "opis1 opis2 opis3"
+    "komisja komisja komisja"
+    "opis4 opis5 opis6";
+}
+
+.container__title {
+    font-size: 3em;
+    margin: 50px auto;
+}
+
+.container__title--grid {
+    grid-area: zarzad;
+}
+
+.member--board1 {
+    grid-area: opis1;
+}
+
+.member--board2 {
+    grid-area: opis2;
+}
+
+.member--board3 {
+    grid-area: opis3;
+}
+
+.member--board4 {
+    grid-area: opis4;
+}
+
+.member--board5 {
+    grid-area: opis5;
+}
+
+.member--board6 {
+    grid-area: opis6;
+}
+
+.container__title--commission {
+    grid-area: komisja;
+}
+
+.member {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.memberPhoto {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.memberName {
+    font-size: 2em;
+    color: #09154B;
+}
+
+.memberDuties {
+    color: #FF7B29;
+}

@@ -1,9 +1,9 @@
-.article__title {
+.article__title, .container__title {
     color: #FF7B29;
     /* text-transform: uppercase; */
     font-weight: bold;
     font-size: 2em;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
     /* text-align: left; */
     /* margin-bottom: 50px; */
 }
@@ -16,7 +16,7 @@
     max-width: 1000px;
 }
 
-.paragraph:first-of-type {
+.paragraph:first-of-type, .paragraph--highligthed {
     border-bottom: 2px solid rgba(9, 21, 75, 0.493) ;
     padding-bottom: 30px;
     margin-top: 20px;
