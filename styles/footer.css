@@ -18,6 +18,10 @@
         max-width: 300px;
         margin: 0 auto;
     }
+
+    .footer__image {
+        max-width: 330px;
+    }
 }
 
 .footer__link {
