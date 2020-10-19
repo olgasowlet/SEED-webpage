@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 1fr);
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
     /* grid-template-rows: 0.1fr 1.7fr; */
     max-width: 1200px;
     margin: 0px auto;
@@ -12,9 +12,24 @@
     "opis4 opis5 opis6";
 }
 
+@media (max-width: 992px) {
+    .container {
+        grid-template-areas:
+        "zarzad"
+        "opis1"
+        "opis2"
+        "opis3"
+        "komisja"
+        "opis4"
+        "opis5"
+        "opis6"
+    }
+}
+
 .container__title {
     font-size: 3em;
     margin: 50px auto;
+    line-height: 1.2;
 }
 
 .container__title--grid {
@@ -56,16 +71,42 @@
 }
 
 .memberPhoto {
-    width: 400px;
-    height: 400px;
+    width: 100%;
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 30px;
 }
 
+@media (max-width: 992px) {
+    .member {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+    }
+}
+
+@media (max-width: 869px) {
+    .member {
+        grid-template-columns: 1fr;
+        padding: 0 30px 30px 30px;
+    }
+
+    .memberPhoto {
+        width: 50%;
+        margin: 0 auto 10px auto;
+    }
+}
+
 .memberName {
     font-size: 2em;
     color: #09154B;
+}
+
+@media (max-width: 483px) {
+    .memberName {
+        font-size: 1.3em;
+    }
 }
 
 .memberDuties {
