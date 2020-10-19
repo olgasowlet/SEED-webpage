@@ -22,14 +22,8 @@
     color: #FF7B29 ;
 }
 
-@media (max-width: 914px) {
+@media (max-width: 934px) {
     .title {
-        font-size: 4em;
-    }
-
-    @media (max-width: 582px) {
-        .title {
-            font-size: 2em;
-        }
+        display: none;
     }
 }
