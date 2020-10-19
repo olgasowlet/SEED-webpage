@@ -4,7 +4,30 @@
     align-items: center;
 }
 
+@media (max-width: 865px) {
+    .partner {
+        width: 100vw;
+        padding: 0;
+    }
+}
+
 .partner {
     width: 30%;
     padding: 0 30px;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media (max-width: 741px) {
+    .artile__title--partners {
+        display: none;
+    }
+}
+
+@media (max-width: 488px) {
+    .partner {
+        height: 100%;
+        margin: 5px 0;
+        padding: 10px;
+    }
 }
