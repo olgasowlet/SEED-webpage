@@ -104,8 +104,16 @@
 }
 
 @media (max-width: 483px) {
+    .member {
+        font-size: 0.7em;
+    }
+
     .memberName {
         font-size: 1.3em;
+    }
+
+    .container__title {
+        font-size: 1.7em;
     }
 }
 
